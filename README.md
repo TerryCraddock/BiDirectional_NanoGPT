@@ -1,4 +1,4 @@
-BiDirectionalGPT: Efficient and Stable Bidirectional Dual-Head Causal Attention Transformers
+#BiDirectionalGPT: Efficient and Stable Bidirectional Dual-Head Causal Attention Transformers
 
 This repository contains a modified version of Andrew Karpathy's NanoGPT codebase, introducing significant enhancements to the GPT language model architecture. Inspired by the original work, our model extends the capabilities of language modeling by introducing bidirectional dual-head causal attention mechanisms. The aim is to improve context understanding and predictive capabilities while achieving performance comparable to or better than larger GPT-2 models in a reduced training time.
 Acknowledgment
