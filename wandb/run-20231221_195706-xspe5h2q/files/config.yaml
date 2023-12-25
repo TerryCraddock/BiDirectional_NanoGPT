@@ -1,0 +1,137 @@
+wandb_version: 1
+
+out_dir:
+  desc: null
+  value: out_tiny
+eval_interval:
+  desc: null
+  value: 1000
+dropout_adjust_interval:
+  desc: null
+  value: 200
+log_interval:
+  desc: null
+  value: 10
+eval_iters:
+  desc: null
+  value: 200
+eval_only:
+  desc: null
+  value: false
+always_save_checkpoint:
+  desc: null
+  value: true
+init_from:
+  desc: null
+  value: scratch
+wandb_log:
+  desc: null
+  value: true
+wandb_project:
+  desc: null
+  value: Expermintal-BiDir-GPBT
+wandb_run_name:
+  desc: null
+  value: gpbt(tiny)-7_M
+dataset:
+  desc: null
+  value: openwebtext
+gradient_accumulation_steps:
+  desc: null
+  value: 2
+batch_size:
+  desc: null
+  value: 4
+block_size:
+  desc: null
+  value: 256
+n_layer:
+  desc: null
+  value: 4
+n_head:
+  desc: null
+  value: 4
+n_embd:
+  desc: null
+  value: 128
+dropout:
+  desc: null
+  value: 0.0001
+bias:
+  desc: null
+  value: false
+learning_rate:
+  desc: null
+  value: 0.0006
+max_iters:
+  desc: null
+  value: 600000
+weight_decay:
+  desc: null
+  value: 0.1
+beta1:
+  desc: null
+  value: 0.9
+beta2:
+  desc: null
+  value: 0.95
+grad_clip:
+  desc: null
+  value: 1.0
+decay_lr:
+  desc: null
+  value: true
+warmup_iters:
+  desc: null
+  value: 2000
+lr_decay_iters:
+  desc: null
+  value: 600000
+min_lr:
+  desc: null
+  value: 6.0e-05
+backend:
+  desc: null
+  value: nccl
+device:
+  desc: null
+  value: cuda
+dtype:
+  desc: null
+  value: float16
+compile:
+  desc: null
+  value: true
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.16.1
+    framework: huggingface
+    huggingface_version: 4.25.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1703206626.077967
+    t:
+      1:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 105
+      2:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 105
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.12
+      5: 0.16.1
+      6: 4.25.1
+      8:
+      - 5
+      13: linux-x86_64
